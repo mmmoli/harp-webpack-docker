@@ -1,0 +1,11 @@
+{
+  "name": "harp-site",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "harp": "^0.15.2"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/harp compile ./src ./public"
+  }
+}
