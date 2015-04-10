@@ -14,6 +14,8 @@ RUN npm install
 ADD . /home/app/
 
 # RUN node_modules/.bin/webpack -p
+# Build the static html
+RUN ./node_modules/.bin/harp compile ./src ./public
 
 # Enable nginx
 RUN rm -f /etc/service/nginx/down
