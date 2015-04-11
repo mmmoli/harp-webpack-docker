@@ -1,0 +1,12 @@
+{
+  "something-interesting": {
+    "title": "There Is No Spoon",
+    "tags": ["intro", "personal"],
+    "date": "2012-02-07"
+  },
+  "by-the-way": {
+    "title": "By The Way",
+    "tags": ["intro", "javascript"],
+    "date": "2012-02-07"
+  }
+}
